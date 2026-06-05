@@ -22,7 +22,7 @@ using StringTools;
 /**
  * An `FlxText` object that can be selected and edited by the user.
  */
-class FlxInputText extends MinecraftText implements IFlxInputText
+class FlxInputText extends FlxText implements IFlxInputText
 {
 	/**
 	 * The global manager that handles input text objects.
